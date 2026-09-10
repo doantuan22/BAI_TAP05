@@ -1,6 +1,5 @@
 package com.example.bt_05.service.impl;
 
-import java.util.List;
 import java.util.Locale;
 import java.util.Optional;
 
@@ -28,11 +27,6 @@ public class UserServiceImpl implements UserService {
 	public UserServiceImpl(UserRepository userRepository, PasswordEncoder passwordEncoder) {
 		this.userRepository = userRepository;
 		this.passwordEncoder = passwordEncoder;
-	}
-
-	@Override
-	public List<User> findAll() {
-		return userRepository.findAll();
 	}
 
 	@Override

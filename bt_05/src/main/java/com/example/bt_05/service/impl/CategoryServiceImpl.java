@@ -1,6 +1,5 @@
 package com.example.bt_05.service.impl;
 
-import java.util.List;
 import java.util.Locale;
 import java.util.Optional;
 
@@ -25,11 +24,6 @@ public class CategoryServiceImpl implements CategoryService {
 
 	public CategoryServiceImpl(CategoryRepository categoryRepository) {
 		this.categoryRepository = categoryRepository;
-	}
-
-	@Override
-	public List<Category> findAll() {
-		return categoryRepository.findAll();
 	}
 
 	@Override

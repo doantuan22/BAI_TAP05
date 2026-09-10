@@ -1571,4 +1571,3 @@
     exports.teardown = teardown;
 
 }));
-//# sourceMappingURL=adminlte.js.map
