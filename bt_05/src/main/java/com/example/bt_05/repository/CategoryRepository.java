@@ -7,4 +7,8 @@ import com.example.bt_05.entity.Category;
 
 public interface CategoryRepository
 		extends JpaRepository<Category, Long>, JpaSpecificationExecutor<Category> {
+
+	boolean existsByNameIgnoreCase(String name);
+
+	boolean existsByNameIgnoreCaseAndIdNot(String name, Long id);
 }

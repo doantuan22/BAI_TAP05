@@ -1,10 +1,10 @@
-IF DB_ID(N'admin_crud_db') IS NULL
+IF DB_ID(N'ShopBanHang') IS NULL
 BEGIN
-    CREATE DATABASE [admin_crud_db];
+    CREATE DATABASE [ShopBanHang];
 END;
 GO
 
-USE [admin_crud_db];
+USE [ShopBanHang];
 GO
 
 IF OBJECT_ID(N'dbo.category', N'U') IS NULL
