@@ -18,7 +18,7 @@
 
 	<div class="row">
 		<div class="col-12 col-xl-9">
-			<form:form method="post" action="${formAction}" modelAttribute="userForm"
+			<form:form method="post" action="${formAction}" modelAttribute="userForm" acceptCharset="UTF-8"
 				cssClass="card card-primary card-outline">
 				<div class="card-header">
 					<h2 class="card-title">
