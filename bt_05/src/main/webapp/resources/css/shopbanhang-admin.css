@@ -1,0 +1,15 @@
+.app-content {
+	padding-bottom: 1.5rem;
+}
+
+.sidebar-brand .brand-link {
+	text-decoration: none;
+}
+
+.table-actions {
+	min-width: 10rem;
+}
+
+.login-logo a {
+	text-decoration: none;
+}
