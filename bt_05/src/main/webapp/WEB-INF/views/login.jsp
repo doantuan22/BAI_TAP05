@@ -9,7 +9,7 @@
 	<link rel="stylesheet"
 		href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
 		crossorigin="anonymous">
-	<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/adminlte.min.css">
+	<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/adminlte.css">
 	<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/shopbanhang-admin.css">
 </head>
 <body class="login-page bg-body-secondary">
@@ -62,6 +62,6 @@
 		crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
 		crossorigin="anonymous"></script>
-	<script src="${pageContext.request.contextPath}/resources/js/adminlte.min.js"></script>
+	<script src="${pageContext.request.contextPath}/resources/js/adminlte.js"></script>
 </body>
 </html>
